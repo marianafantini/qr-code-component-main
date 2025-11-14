@@ -1,7 +1,7 @@
 body {
     background-color: #D5E1EF;
     font-family: "Outfit", sans-serif;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .page {
@@ -25,8 +25,8 @@ body {
 }
 
 .qr-code-img {
-    height: 17rem;
-    width: 17rem;
+    height: 19rem;
+    width: 19rem;
     border-radius: 1rem;
 }
 
@@ -45,6 +45,7 @@ body {
 }
 
 .title {
+    color: #1F314F;
     font-weight: bold;
     line-height: 120%;
     font-size: 1.4rem;
