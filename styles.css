@@ -36,16 +36,24 @@ body {
 }
 
 .qr-code-img {
-    height: 18rem;
-    width: 18rem;
+    height: auto;
+    width: 100%;
+    max-width: 18rem;
     border-radius: 1rem;
 }
 
 .qr-code-wrapper {
-    padding: 3.5rem;
+    padding: 2rem;
     border-radius: 0.75rem;
     display: flex;
-    width: 10rem;
+    width: 100%;
+    max-width: 10rem;
+}
+
+@media (min-width: 768px) {
+    .qr-code-wrapper {
+        padding: 3.5rem;
+    }
 }
 
 .text-wrapper {
@@ -61,12 +69,16 @@ body {
     font-size: 1.4rem;
     letter-spacing: 0;
     text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.text-content {
+p {
     line-height: 140%;
     font-size: 0.95rem;
     letter-spacing: 0.2px;
     text-align: center;
     color: var(--medium-blue);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
