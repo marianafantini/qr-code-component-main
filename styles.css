@@ -1,7 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #D5E1EF;
     font-family: "Outfit", sans-serif;
     font-size: 24px;
+    height: 100vh;
 }
 
 .page {
@@ -9,8 +12,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 95vh;
     gap: 2rem;
+    height: 100%;
 }
 
 .content-wrapper {
